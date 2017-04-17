@@ -1,0 +1,24 @@
+{
+  "name": "romankarkachev/yii2-apoa-frontend",
+  "description": "Apoa - Business WordPress Theme",
+  "keywords": ["template", "yii2", "Apoa", "bootstrap 3"],
+  "minimum-stability": "dev",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Roman Karkachev",
+      "email": "post@romankarkachev.ru"
+    }
+  ],
+  "require": {
+    "rmrevin/yii2-fontawesome": "~2.17",
+    "mimicreative/yii2-simple-line-icons": "~1.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "romankarkachev\\apoa": ""
+    }
+  }
+}
